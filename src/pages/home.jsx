@@ -8,15 +8,18 @@ import Postula from '../assets/banner_admision_postula.jpg'
 
 
 function Button({children}) {
-  return  <button variant='contained' style={{
-    paddingRight : '50%',
-    backgroundcolor: 'transpose',
-    color: '#fff',
-    border:'none', 
+  return  <button  style={{
+    paddingRight : '80%',
+    position: 'relative',
+    left: '20px',
+    color: 'blue',
+    border:'blue', 
     borderradius:'10px',
     padding:'40px',
     minheight:'40px', 
     minwidth: '120px',
+    fontfamily: 'Rubik One',
+    fontsize: '40vw'
   }
     }>{children}</button>;
 }
