@@ -11,8 +11,15 @@ export const HomePage = () => {
       <NavBar />
       <Banner />
       <h2>Página de Inicio</h2>
-      <Card style={{backgroundImage: `url(${Postula})`, minHeight: 100}}>
-        
+      <Card style={{background: `url(${Postula}) fixed no-repeat`}}>
+        <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '20vh',
+          }}>
+          Postula aquí
+        </div>
       </Card>
     </div>
   )
