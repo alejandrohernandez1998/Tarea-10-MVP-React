@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import LogoUSM from '../assets/logo-usm.svg'
+import LogoUSM from '../assets/logo-usm.png'
 
 export const NavBar = () => {
   return (
