@@ -1,6 +1,17 @@
 .nav-bar__link {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 60%;
+  padding: 8px;
+
+  &--active {
+    background: #eee;
+    color: #eee;
+  }
+}
+
+.nav-bar__link1 {
+  padding: 8px;
+  right: 0px;
   padding: 8px;
 
   &--active {

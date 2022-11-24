@@ -10,10 +10,10 @@ export const NavBar = () => {
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/'
       >
-        <img src={LogoUSM} height={100} alt='logo usm' /><br />
+        <img src={LogoUSM} height={60} alt='logo usm' /><br />
       </NavLink>
       <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+        className={({ isActive }) => `nav-bar__link1 ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/admision'
       >
         Admisión
