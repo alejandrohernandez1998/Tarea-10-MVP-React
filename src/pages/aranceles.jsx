@@ -1,5 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
+import { Button } from '@mui/material'
+
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
@@ -11,26 +13,61 @@ export const ArancelPage = () => {
         <Banner />
 
         
-        <h4>{'>'}Inicio{'>'}Aranceles</h4>
+        <h3>{'>'}Inicio{'>'}Aranceles</h3>
 
 
-        <h2>Página de Inicio</h2>
+        <h1>Aranceles</h1>
         
-        <table class="default">
-        <tr>
-            <td><h3>Carreras</h3></td>
-            <td><h3>Aranceles</h3></td>
-        </tr>
+        <div id="contenedor" style={{
+              display: 'flex',
+              flexdirection: 'row',
+              flexwrap: 'wrap',
+        }}>
+            <div style={{width: '50%'}}>
+                <h2>Carreras</h2>
+                <h3>Ingeniería Civil</h3>
+                <h3>Ingeniería Civil Ambiental</h3>
+                <h3>Ingeniería Civil de Minas</h3>
+                <h3>Ingeniería Civil Eléctrica</h3>
+                <h3>Ingeniería Civil Electrónica</h3>
+                <h3>Ingeniería Civil Física</h3>
+                <h3>Ingeniería Civil Industrial</h3>
+                <h3>Ingeniería Civil Informática</h3>
+                <h3>Ingeniería Civil Matemática</h3>
+                <h3>Ingeniería Civil Mecánica</h3>
+                <h3>Ingeniería Civil Metalúrgica</h3>
+                <h3>Ingeniería Civil Plan Común</h3>
+                <h3>Ingeniería Civil Química</h3>
+                <h3>Ingeniería Civil Telemática</h3>
+            </div>
 
-        <tr>
-            <td>Celda 6</td>
-            <td>Celda 6</td>
-            <td>Celda 6</td>
-       </tr>
+            <div style={{width: '20%'}}>
+                <h2>Aranceles</h2>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+                <h3>$5.870.000</h3>
+            </div>
+        </div>
 
-        </table>
-        
-        
+
+        <p style={{alignItems:"right"}}>
+          <Link to='/'>
+            <Button variant='contained'>Volver al Inicio</Button>
+          </Link>
+          
+          
+        </p>            
   
   
   
