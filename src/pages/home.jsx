@@ -20,14 +20,13 @@ export const HomePage = () => {
       <Banner />
 
       <Card style={{background: `url(${Postula}) no-repeat`}}>
-
-        <Button variant="contained" style={{margin: 10, textTransform: 'none'}}>
-          <Grid container spacing={9}>
+        <Button href='/admision' variant="contained" style={{margin: 10, textTransform: 'none'}}>
+          <Grid container spacing={14} style={{marginTop: 0}}>
             <Grid xs={0.5}>
-              <ChevronRightIcon style= {{color: 'orange'}} sx={{ fontSize: 120 }}/>
+              <ChevronRightIcon style= {{color: 'orange'}} sx={{ fontSize: 100 }}/>
             </Grid>
             <Grid xs={10}>
-              <Typography variant="h2" style = {{color: 'white'}}>
+              <Typography variant="h3" style = {{color: 'white'}}>
                 POSTULA AQUÍ
               </Typography>
               <Typography style = {{color: 'white'}}>

@@ -1,11 +1,16 @@
 import React from 'react'
+import { Card } from '@mui/material';
+import { Typography } from '@mui/material';
 import BannerImg from '../assets/banner-principal-03.jpg'
+
 
 export const Banner = () => {
   return (
-    <div>
-      <img src={BannerImg} alt="react logo" style={{ width: '100%' }}/>
-    </div>
+    <Card style={{background: `url(${BannerImg}) no-repeat`}}>
+      <Typography variant="h2" style = {{color: 'white', marginTop: 60, marginLeft: 60}}>
+        Bienvenid@s a la USM
+      </Typography>
+    </Card>
   )
 }
 
