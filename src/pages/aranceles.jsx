@@ -61,9 +61,9 @@ export const ArancelPage = () => {
         </div>
 
 
-        <p style={{alignItems:"right"}}>
+        <p style={{marginLeft: '90%'}}>
           <Link to='/'>
-            <Button variant='contained'>Volver al Inicio</Button>
+            <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
           </Link>
           
           
