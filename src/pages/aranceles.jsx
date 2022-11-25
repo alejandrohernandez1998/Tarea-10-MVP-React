@@ -5,16 +5,14 @@ import { Button } from '@mui/material'
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
+import CrumbsArancel from '../components/bcrumbs_aranceles';
 
 export const ArancelPage = () => {
     return (
       <div className='page'>
         <NavBar />
+        <CrumbsArancel />
         <Banner />
-
-        
-        <h3>{'>'}Inicio{'>'}Aranceles</h3>
-
 
         <h1>Aranceles</h1>
         

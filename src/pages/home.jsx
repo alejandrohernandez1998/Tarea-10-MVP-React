@@ -1,11 +1,5 @@
 import React from 'react'
 
-import NavBar from '../components/nav_bar'
-import Banner from '../components/banner'
-import CardAranceles from '../components/card_aranceles'
-import CardAdmision from '../components/card_admision';
-import CardSimulacion from '../components/card_simulacion';
-import Postula from '../assets/banner_admision_postula.jpg'
 import { Button } from '@mui/material';
 import { Paper } from '@mui/material';
 import { Card } from '@mui/material';
@@ -13,10 +7,19 @@ import { Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
+import NavBar from '../components/nav_bar'
+import Banner from '../components/banner'
+import CardAranceles from '../components/card_aranceles'
+import CardAdmision from '../components/card_admision';
+import CardSimulacion from '../components/card_simulacion';
+import Postula from '../assets/banner_admision_postula.jpg'
+import CrumbsHome from '../components/bcrumbs_home';
+
 export const HomePage = () => {
   return (
     <div className='page'>
       <NavBar />
+      <CrumbsHome />
       <Banner />
 
       <Card style={{background: `url(${Postula}) no-repeat`}}>

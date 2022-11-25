@@ -24,7 +24,7 @@ export default function CardAdmision() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button href='/admision' variant="contained">Admisión</Button>
+        <Button href='/admision' variant="contained">Postulación</Button>
       </CardActions>
     </Card>
   );

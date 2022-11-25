@@ -4,15 +4,14 @@ import { Button } from '@mui/material'
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
+import CrumbsSimResult from '../components/bcrumbs_simresult'
 
 export const SimuPage2 = () => {
     return (
       <div className='page'>
         <NavBar />
+        <CrumbsSimResult />
         <Banner />
-
-        <h3>{'>'}Inicio{'>'}Simulaciones{'>'}Resultados</h3>
-
         
         <h1>Resultados</h1>
         

@@ -5,16 +5,15 @@ import { Button } from '@mui/material'
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
+import CrumbsSim from '../components/bcrumbs_sim';
 
 export const SimuPage1 = () => {
     return (
       <div className='page'>
         <NavBar />
+        <CrumbsSim />
         <Banner />
 
-        <h3>{'>'}Inicio{'>'}Simulaciones</h3>
-
-        
         <h1>Simulación Ponderación</h1>
         
         <h2>Ingrese su puntajes:</h2>
