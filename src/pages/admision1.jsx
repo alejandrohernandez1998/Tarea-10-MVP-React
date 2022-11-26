@@ -7,7 +7,7 @@ import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
 import CrumbsAdmision from '../components/bcrumbs_admision';
 
-export const AdmisionPage = () => {
+export const AdmisionPage1 = () => {
     return (
       <div className='page'>
         <NavBar />
@@ -15,23 +15,19 @@ export const AdmisionPage = () => {
         <Banner />
 
         <h1>Admisión</h1>
-        
-        <div style={{marginLeft: '40%'}}>
-          <h2>Iniciar Sesión</h2>
+        <h2>Postulación</h2>
+
+        <h3>Ingrese sus preferencias</h3>
+
+
+        <div style={{marginLeft: '10%'}}>
           <form>
-            <label>
             <p></p>
               <p>
-              <h3>RUT:</h3>     
-                <p>
-              <input type="text" name="rut" />
+              <input type="checkbox" name="rut" />
               </p>
-              </p>
-              <h3>Contraseña:</h3> 
-              <p>
-              <input type="password" name="pas" />
-              </p>
-            </label>
+              <input type="checkbox" id="m2" />
+               <label for="m2"> afas  </label>
 
             <p style={{marginLeft: '10%'}}>
               <Link to='/admision1'>
@@ -42,6 +38,22 @@ export const AdmisionPage = () => {
           </form>
 
         </div>
+
+      
+        <p style={{marginLeft: '90%'}}>
+          <Link to='/simulacion_2'>
+            <Button style={{align:"right"}} variant='contained'>Postular</Button>
+          </Link>
+        </p>  
+
+        <p style={{marginLeft: '87.5%'}}>
+          <Link to='/' style={{}}>
+            <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
+          </Link> 
+        </p>
+
+        
+        
   
   
   
@@ -49,4 +61,4 @@ export const AdmisionPage = () => {
     )
   }
   
-  export default AdmisionPage
+  export default AdmisionPage1
