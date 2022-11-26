@@ -14,12 +14,34 @@ export const AdmisionPage = () => {
         <CrumbsAdmision />
         <Banner />
 
-        <h2>Admisión</h2>
+        <h1>Admisión</h1>
         
-        
-        
-        <Button variant='contained'>Material UI Button</Button>
-        
+        <div style={{marginLeft: '40%'}}>
+          <h2>Iniciar Sesión</h2>
+          <form>
+            <label>
+            <p></p>
+              <p>
+              <h3>RUT:</h3>     
+                <p>
+              <input type="text" name="rut" />
+              </p>
+              </p>
+              <h3>Contraseña:</h3> 
+              <p>
+              <input type="password" name="pas" />
+              </p>
+            </label>
+
+            <p style={{marginLeft: '10%'}}>
+              <Link to='/simulacion_2'>
+                <Button style={{align:"right"}} variant='contained'>Iniciar Sesión</Button>
+              </Link>
+            </p> 
+            
+          </form>
+
+        </div>
   
   
   
