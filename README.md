@@ -13,6 +13,7 @@ Install dependences
 
 ```
 npm install
+npm install @mui/icons-material
 ```
 
 Launch environment
