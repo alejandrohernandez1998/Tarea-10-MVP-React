@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import { Button } from '@mui/material'
-
+import Container from '@mui/material/Container';  
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
@@ -11,6 +11,7 @@ export const ArancelPage = () => {
     return (
       <div className='page'>
         <NavBar />
+        <Container maxWidth="xl">
         <CrumbsArancel />
         <Banner />
 
@@ -68,7 +69,7 @@ export const ArancelPage = () => {
         </p>            
   
   
-  
+      </Container>
       </div>
     )
   }

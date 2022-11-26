@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import { Button } from '@mui/material'
+import Container from '@mui/material/Container';  
 
 
 import NavBar from '../components/nav_bar'
@@ -11,6 +12,7 @@ export const SimuPage1 = () => {
     return (
       <div className='page'>
         <NavBar />
+        <Container maxWidth="xl">
         <CrumbsSim />
         <Banner />
 
@@ -83,7 +85,7 @@ export const SimuPage1 = () => {
         
   
   
-  
+      </Container>
       </div>
     )
   }
