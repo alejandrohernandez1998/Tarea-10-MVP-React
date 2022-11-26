@@ -8,6 +8,8 @@ import ArancelPage from '../pages/aranceles'
 import SimuPage1 from '../pages/simulacion_1'
 import SimuPage2 from '../pages/simulacion_2'
 import AdmisionPage1 from '../pages/admision1'
+import AdmisionPage2 from '../pages/admision2'
+import AdmisionPage3 from '../pages/admision3'
 
 
 const theme = createTheme({
@@ -36,6 +38,8 @@ const AppRouter = () => {
         <Route path='/simulacion_1' element={<SimuPage1 />} />
         <Route path='/simulacion_2' element={<SimuPage2 />} />
         <Route path='/admision1' element={<AdmisionPage1 />} />
+        <Route path='/admision2' element={<AdmisionPage2 />} />
+        <Route path='/admision3' element={<AdmisionPage3 />} />
       </Routes>
     </BrowserRouter>
     </ThemeProvider>

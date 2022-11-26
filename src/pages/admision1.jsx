@@ -22,18 +22,86 @@ export const AdmisionPage1 = () => {
 
         <div style={{marginLeft: '10%'}}>
           <form>
-            <p></p>
               <p>
-              <input type="checkbox" name="rut" />
+              <input type="checkbox" id="m1" />
+               <label for="m1"> Ingeniería Civil  </label>
               </p>
-              <input type="checkbox" id="m2" />
-               <label for="m2"> afas  </label>
 
-            <p style={{marginLeft: '10%'}}>
-              <Link to='/admision1'>
-                <Button style={{align:"right"}} variant='contained'>Iniciar Sesión</Button>
-              </Link>
-            </p> 
+              <p>
+              <input type="checkbox" id="m2" />
+               <label for="m2"> Ingeniería Civil Ambiental  </label>
+              </p>
+
+              <p>
+              <input type="checkbox" id="m3" />
+               <label for="m3"> Ingeniería Civil de Minas  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m4" />
+               <label for="m4"> Ingeniería Civil Eléctrica  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m5" />
+               <label for="m5"> Ingeniería Civil Electrónica  </label>
+              </p>
+
+              <p>
+              <input type="checkbox" id="m6" />
+               <label for="m6"> Ingeniería Civil Física  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m7" />
+               <label for="m7"> Ingeniería Civil Industrial  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m8" />
+               <label for="m8"> Ingeniería Civil Informática  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m9" />
+               <label for="m9"> Ingeniería Civil Matemática  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m10" />
+               <label for="m10"> Ingeniería Civil Mecánica  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m11" />
+               <label for="m11"> Ingeniería Civil Metalúrgica  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m12" />
+               <label for="m12"> Ingeniería Civil Plan Común  </label>
+              </p>
+
+
+              <p>
+              <input type="checkbox" id="m13" />
+               <label for="m13"> Ingeniería Civil Química  </label>
+              </p>
+
+              <p>
+              <input type="checkbox" id="m14" />
+               <label for="m14"> Ingeniería Civil Telemática  </label>
+              </p>
+
+            
             
           </form>
 
@@ -41,7 +109,7 @@ export const AdmisionPage1 = () => {
 
       
         <p style={{marginLeft: '90%'}}>
-          <Link to='/simulacion_2'>
+          <Link to='/admision2'>
             <Button style={{align:"right"}} variant='contained'>Postular</Button>
           </Link>
         </p>  
