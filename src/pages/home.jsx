@@ -15,10 +15,13 @@ import CardSimulacion from '../components/card_simulacion';
 import Postula from '../assets/banner_admision_postula.jpg'
 import CrumbsHome from '../components/bcrumbs_home';
 
+import Container from '@mui/material/Container';  
+
 export const HomePage = () => {
   return (
     <div className='page'>
       <NavBar />
+      <Container maxWidth="xl">
       <CrumbsHome />
       <Banner />
 
@@ -52,6 +55,7 @@ export const HomePage = () => {
           <CardSimulacion />
         </Grid>
       </Grid>
+      </Container>
 
     </div>
   )
