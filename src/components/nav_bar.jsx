@@ -5,6 +5,7 @@ import LogoUSM from '../assets/logo-usm.png'
 
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 
 export const NavBar = () => {
   return (
@@ -21,28 +22,13 @@ export const NavBar = () => {
             className={({ isActive }) => `nav-bar__link1 ${isActive ? 'nav-bar__link--active' : ''}`}
             to='/admision'
           >
-            Admisión
+            <Typography variant="h5" component="div">
+              Admisión
+            </Typography>
           </NavLink>
         </Toolbar>
       </Container>
     </AppBar>
-      /*
-    <nav className='nav-bar'>
-      
-      <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/'
-      >
-        <img src={LogoUSM} height={60} alt='logo usm' /><br />
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => `nav-bar__link1 ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/admision'
-      >
-        Admisión
-      </NavLink>
-    </nav>
-    */
   )
 }
 

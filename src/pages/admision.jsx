@@ -37,12 +37,12 @@ export const AdmisionPage = () => {
 
             <Grid container spacing={2}>
             <Grid xs={6}>
+              <Button href='/' style={{align:"right"}} variant='outlined'>Volver al inicio</Button>
+            </Grid>
+            <Grid xs={6}>  
               <Button href = '/admision1' style={{align:"right"}} variant='contained'>
                 Iniciar Sesión
               </Button>
-            </Grid>
-            <Grid xs={6}>
-              <Button href='/' style={{align:"right"}} variant='outlined'>Volver al inicio</Button>
             </Grid>
           </Grid>
           </form>
