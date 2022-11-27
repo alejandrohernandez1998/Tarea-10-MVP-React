@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import { Button } from '@mui/material'
 import { Card } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2';
 import Container from '@mui/material/Container';  
 
 import NavBar from '../components/nav_bar'
@@ -27,16 +28,23 @@ export const AdmisionPage = () => {
             <label>
               <h3>RUT:</h3>     
 
-              <input type="text" name="rut" />
+              <input style={{ width: '93%' }} type="text" name="rut"/>
               <h3>Contraseña:</h3> 
               <p>
-              <input type="password" name="pas" />
+              <input style={{ width: '93%' }} type="password" name="pas"/>
               </p>
             </label>
 
-            <Button href = '/admision1' style={{align:"right"}} variant='contained'>
-              Iniciar Sesión
-            </Button>
+            <Grid container spacing={2}>
+            <Grid xs={6}>
+              <Button href = '/admision1' style={{align:"right"}} variant='contained'>
+                Iniciar Sesión
+              </Button>
+            </Grid>
+            <Grid xs={6}>
+              <Button href='/' style={{align:"right"}} variant='outlined'>Volver al inicio</Button>
+            </Grid>
+          </Grid>
           </form>
         </div></Card>
         </Container>
