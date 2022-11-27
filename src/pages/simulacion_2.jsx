@@ -69,20 +69,12 @@ export const SimuPage2 = () => {
         </div>
         
         <p style={{marginLeft: '90%'}}>
-            <Link to='/simulacion_1' style={{}}>
-              <Button style={{align:"right"}} variant='contained'>Volver a Simular</Button>
-            </Link>
+            <Button href='/simulacion_1' style={{align:"right"}} variant='contained'>Volver a Simular</Button>
         </p>
 
         <p style={{marginLeft: '90%'}}>
-            <Link to='/' style={{}}>
-              <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
-            </Link> 
+            <Button href='/' style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
         </p>
-        
-        
-        
-  
   
       </Container>
       </div>

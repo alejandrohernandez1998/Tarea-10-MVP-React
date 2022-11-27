@@ -65,15 +65,11 @@ export const SimuPage1 = () => {
           </label>
 
           <p style={{marginLeft: '90%'}}>
-            <Link to='/simulacion_2'>
-              <Button style={{align:"right"}} variant='contained'>Simular</Button>
-            </Link>
+            <Button href='/simulacion_2' style={{align:"right"}} variant='contained'>Simular</Button>
           </p>  
 
           <p style={{marginLeft: '87.5%'}}>
-            <Link to='/' style={{}}>
-              <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
-            </Link> 
+            <Button href='/' style={{align:"right"}} variant='outlined'>Volver al Inicio</Button>
         </p>
 
 

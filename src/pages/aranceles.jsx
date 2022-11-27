@@ -60,10 +60,8 @@ export const ArancelPage = () => {
         </div>
 
 
-        <p style={{marginLeft: '90%'}}>
-          <Link to='/'>
-            <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
-          </Link>
+        <p style={{marginLeft: '87%'}}>
+          <Button href='/' style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
           
           
         </p>            

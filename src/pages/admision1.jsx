@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import { Button } from '@mui/material'
-
+import Container from '@mui/material/Container';  
 
 import NavBar from '../components/nav_bar'
 import Banner from '../components/banner'
@@ -11,6 +11,7 @@ export const AdmisionPage1 = () => {
     return (
       <div className='page'>
         <NavBar />
+        <Container maxWidth="xl">
         <CrumbsAdmision />
         <Banner />
 
@@ -109,22 +110,18 @@ export const AdmisionPage1 = () => {
 
       
         <p style={{marginLeft: '90%'}}>
-          <Link to='/admision2'>
-            <Button style={{align:"right"}} variant='contained'>Postular</Button>
-          </Link>
+          <Button href='/admision2' style={{align:"right"}} variant='contained'>Postular</Button>
         </p>  
 
         <p style={{marginLeft: '87.5%'}}>
-          <Link to='/' style={{}}>
-            <Button style={{align:"right"}} variant='contained'>Volver al Inicio</Button>
-          </Link> 
+          <Button href='/' style={{align:"right"}} variant='outlined'>Volver al Inicio</Button>
         </p>
 
         
         
   
   
-  
+      </Container>
       </div>
     )
   }
